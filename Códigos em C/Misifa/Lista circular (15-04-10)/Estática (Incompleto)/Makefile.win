@@ -1,0 +1,33 @@
+# Project: Projeto1
+# Makefile created by Dev-C++ 4.9.9.2
+
+CPP  = g++.exe
+CC   = gcc.exe
+WINDRES = windres.exe
+RES  = 
+OBJ  = main.o lista_circular.o $(RES)
+LINKOBJ  = main.o lista_circular.o $(RES)
+LIBS =  -L"lib" -L"C:/Program Files/OpenCV/lib" -lhighgui -lcv -lcxcore -lcvaux -lcvcam  
+INCS =  -I"include"  -I"C:/Program Files/OpenCV/cv/include"  -I"C:/Program Files/OpenCV/cvaux/include"  -I"C:/Program Files/OpenCV/cxcore/include"  -I"C:/Program Files/OpenCV/otherlibs/highgui"  -I"C:/Program Files/OpenCV/otherlibs/cvcam/include" 
+CXXINCS =  -I"lib/gcc/mingw32/3.4.2/include"  -I"include/c++/3.4.2/backward"  -I"include/c++/3.4.2/mingw32"  -I"include/c++/3.4.2"  -I"include"  -I"C:/Program Files/OpenCV/cv/include"  -I"C:/Program Files/OpenCV/cvaux/include"  -I"C:/Program Files/OpenCV/cxcore/include"  -I"C:/Program Files/OpenCV/otherlibs/highgui"  -I"C:/Program Files/OpenCV/otherlibs/cvcam/include" 
+BIN  = Lista_circular.exe
+CXXFLAGS = $(CXXINCS)  
+CFLAGS = $(INCS)  
+RM = rm -f
+
+.PHONY: all all-before all-after clean clean-custom
+
+all: all-before Lista_circular.exe all-after
+
+
+clean: clean-custom
+	${RM} $(OBJ) $(BIN)
+
+$(BIN): $(OBJ)
+	$(CC) $(LINKOBJ) -o "Lista_circular.exe" $(LIBS)
+
+main.o: main.c
+	$(CC) -c main.c -o main.o $(CFLAGS)
+
+lista_circular.o: lista_circular.c
+	$(CC) -c lista_circular.c -o lista_circular.o $(CFLAGS)

@@ -1,0 +1,18 @@
+# depslib dependency file v1.0
+1307738345 source:f:\gustavo\unesp - estruturas de dados\meus codigos\hashing\hashing1\main.c
+	<stdio.h>
+	<stdlib.h>
+	<conio.h>
+	"hash1.h"
+
+1307738239 f:\gustavo\unesp - estruturas de dados\meus codigos\hashing\hashing1\hash1.h
+	<stdio.h>
+	<stdlib.h>
+	<conio.h>
+
+1307738312 source:f:\gustavo\unesp - estruturas de dados\meus codigos\hashing\hashing1\hash1.c
+	<stdio.h>
+	<stdlib.h>
+	<conio.h>
+	"hash1.h"
+

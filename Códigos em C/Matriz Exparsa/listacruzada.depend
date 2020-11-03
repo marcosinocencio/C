@@ -1,0 +1,33 @@
+# depslib dependency file v1.0
+1307658675 source:i:\gustavo\unesp - estruturas de dados\meus codigos\matriz exparsa\main.c
+	<stdio.h>
+	<stdlib.h>
+	"tadexparsa.h"
+
+1307376446 i:\gustavo\unesp - estruturas de dados\meus codigos\matriz exparsa\tadexparsa.h
+	<stdio.h>
+	<stdlib.h>
+
+1307735954 source:f:\gustavo\unesp - estruturas de dados\meus codigos\matriz exparsa\main.c
+	<stdio.h>
+	<stdlib.h>
+	"tadexparsa.h"
+
+1307735430 f:\gustavo\unesp - estruturas de dados\meus codigos\matriz exparsa\tadexparsa.h
+	<stdio.h>
+	<stdlib.h>
+
+1307735911 source:f:\gustavo\unesp - estruturas de dados\meus codigos\matriz exparsa\matrizexparsa.c
+	<stdio.h>
+	<stdlib.h>
+	"tadexparsa.h"
+
+1307736130 source:d:\ciência da computação\disciplinas\estrutura de dados\i\códigos em c\matriz exparsa\matrizexparsa.c
+	<stdio.h>
+	<stdlib.h>
+	"tadexparsa.h"
+
+1307735430 d:\ciência da computação\disciplinas\estrutura de dados\i\códigos em c\matriz exparsa\tadexparsa.h
+	<stdio.h>
+	<stdlib.h>
+

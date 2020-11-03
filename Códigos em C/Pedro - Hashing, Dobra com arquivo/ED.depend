@@ -1,0 +1,43 @@
+# depslib dependency file v1.0
+1307542536 source:c:\users\spades\documents\ed\hashing_em_arquivo\hash_functions.c
+	<stdio.h>
+	<stdlib.h>
+	"Hash_functions.h"
+	<string.h>
+
+1307542327 c:\users\spades\documents\ed\hashing_em_arquivo\hash_functions.h
+
+1307542321 source:c:\users\spades\documents\ed\hashing_em_arquivo\main.c
+	<stdio.h>
+	<stdlib.h>
+	"Hash_functions.h"
+	<string.h>
+
+1307649270 source:c:\users\spades\desktop\ed\main.c
+	<stdio.h>
+	<stdlib.h>
+	"Hash_functions.h"
+	<string.h>
+
+1307647743 c:\users\spades\desktop\ed\hash_functions.h
+
+1307649270 source:c:\users\spades\desktop\ed\hash_functions.c
+	<stdio.h>
+	<stdlib.h>
+	"Hash_functions.h"
+	<string.h>
+
+1307649272 source:c:\users\gustavo\desktop\dropbox\main.c
+	<stdio.h>
+	<stdlib.h>
+	"Hash_functions.h"
+	<string.h>
+
+1307647744 c:\users\gustavo\desktop\dropbox\hash_functions.h
+
+1307649272 source:c:\users\gustavo\desktop\dropbox\hash_functions.c
+	<stdio.h>
+	<stdlib.h>
+	"Hash_functions.h"
+	<string.h>
+
